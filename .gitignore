@@ -1,5 +1,5 @@
 # Secrets
-**/secrets.yaml
+back/node_watcher/**/secrets.yaml
 
 # Generated outputs
 **/lib/
