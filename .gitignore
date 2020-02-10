@@ -5,6 +5,9 @@
 # package-lock.json
 package-lock.json
 
+# Secrets
+back/node_watcher/**/secrets.yaml
+
 # Generated outputs
 **/lib/
 

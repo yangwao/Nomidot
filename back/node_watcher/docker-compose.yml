@@ -29,5 +29,22 @@ services:
             rawAccess: true
             port: 5432
             migrations: true
+          staging:
+            connector: postgres
+            host: gcsql
+            user: POSTGRES_USER_STAGING
+            password: POSTGRES_PASSWORD_STAGING
+            rawAccess: true
+            port: 5432
+            migrations: true
+          prod:
+            connector: postgres
+            host: gcsql
+            user: POSTGRES_USER_PROD
+            password: POSTGRES_PASSWORD_PROD
+            rawAccess: true
+            port: 5432
+            migrations: true
+
 volumes:
   postgres: ~
